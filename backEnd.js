@@ -47,7 +47,7 @@ function logaritmo() {
 
         if (numero > 0) {
             display.value = Math.log10(numero);
-            
+
         }
         else {
             display.value = "Erro";
@@ -55,4 +55,11 @@ function logaritmo() {
 
     }
 
+}
+
+function powElevation() {
+
+    if (display.value !== "") {
+        display.value = Math.pow(Number(display.value), 2); // Math.pow() -> calcula a potência de um número.
+    }
 }

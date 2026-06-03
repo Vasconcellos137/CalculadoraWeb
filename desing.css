@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: fantasy, Helvetica, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -49,7 +49,7 @@ button {
 }
 
 button:hover {
-    opacity: 0.85; /*controla transparência/opacidade*/
+    opacity: 50%; /*controla transparência/opacidade*/
 }
 
 .mais {
