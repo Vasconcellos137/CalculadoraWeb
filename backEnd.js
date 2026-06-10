@@ -63,3 +63,53 @@ function powElevation() {
         display.value = Math.pow(Number(display.value), 2); // Math.pow() -> calcula a potência de um número.
     }
 }
+
+function cubo() {
+
+    if (display.value !== "") {
+        display.value = Math.pow(Number(display.value), 3); 
+    }
+
+}
+
+function seno() {
+
+    if (display.value !== "") {
+
+        const numero = Number(display.value);
+
+        const radianos = numero * (Math.PI / 180); // converte graus para radianos
+
+        display.value = Math.sin(radianos); 
+
+    }
+
+}
+
+function cosseno() {
+
+    if (display.value !== "") {
+
+        const numero = Number(display.value);
+
+        const radianos = numero * (Math.PI / 180);
+
+        display.value = Math.cos(radianos); 
+
+    }
+
+}
+
+function tangente() {
+
+    if (display.value !== "") {
+
+        const numero = Number(display.value);
+
+        const radianos = numero * (Math.PI / 180);
+
+        display.value = Math.tan(radianos); 
+
+    }
+
+}
